@@ -69,7 +69,6 @@ fun LoginScreen(context: Context, databaseHelper: UserDatabaseHelper) {
         Text(
             fontSize = 36.sp,
             fontWeight = FontWeight.ExtraBold,
-            fontFamily = FontFamily.Cursive,
             text = "Login"
         )
         Spacer(modifier = Modifier.height(10.dp))
